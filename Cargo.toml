@@ -4,3 +4,7 @@ version = "0.1.0"
 authors = ["Mateus \"Doodad\" Medeiros <mateusbmedeiros@outlook.com>"]
 
 [dependencies]
+piston = "*"
+piston2d-graphics = "*"
+pistoncore-glutin_window = "*"
+piston2d-opengl_graphics = "*"
