@@ -11,7 +11,7 @@ code in the world, but we all had to begin somewhere. ;)
 Pass the path to an input file as the first positional argument:
 
 ```bash
-rust_of_life examples/input.txt # optionally cargo run examples/input.txt
+./rust_of_life examples/input.txt # optionally cargo run examples/input.txt
 ```
 
 ### Input file
