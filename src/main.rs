@@ -1,4 +1,5 @@
 extern crate piston_window;
+extern crate pancurses;
 
 use std::env;
 
@@ -6,7 +7,7 @@ mod models;
 mod utils;
 mod grid_displayers;
 
-use grid_displayers::{ GridDisplayer, SimpleTerminal };
+use grid_displayers::{ GridDisplayer, Pancurses };
 use utils::create_dispatcher;
 use utils::read_grid_from_file;
 
@@ -15,7 +16,7 @@ fn main() {
     let input = args.get(1).expect("No input file passed as argument.");
     let grid = read_grid_from_file(input).unwrap();
     let receiver = create_dispatcher(grid);
-    let displayer = SimpleTerminal::new();
+    let displayer = Pancurses::new();
 
     displayer.draw(receiver);
 }
