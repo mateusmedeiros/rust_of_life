@@ -5,3 +5,4 @@ authors = ["Mateus \"Doodad\" Medeiros <mateusbmedeiros@outlook.com>"]
 
 [dependencies]
 piston_window = "0.64.0"
+pancurses = "0.8"
