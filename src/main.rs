@@ -1,3 +1,5 @@
+#![allow(unused_parens)]
+
 extern crate piston_window;
 extern crate pancurses;
 
