@@ -4,9 +4,11 @@ use std::sync::mpsc::{ Receiver };
 use models::Grid;
 use grid_displayers::GridDisplayer;
 
+#[allow(dead_code)]
 pub struct SimpleTerminal;
 
 impl SimpleTerminal {
+    #[allow(dead_code)]
     pub fn new() -> SimpleTerminal {
         SimpleTerminal
     }
