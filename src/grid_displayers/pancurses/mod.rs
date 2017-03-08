@@ -1,5 +1,5 @@
 mod pancurses;
-mod character;
+mod color;
 
-use self::character::Character;
 pub use self::pancurses::Pancurses;
+pub use self::color::Color;
